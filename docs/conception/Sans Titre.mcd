@@ -1,0 +1,17 @@
+niveau: _débutant, intermédiaire, expert
+defini, 0N niveau, 11 Question
+
+
+valide, 11 Question, 11 Réponse
+
+Question: _code question, question, anectddote, wiki(indice, info)
+possède, 0N Question, 11 Réponse
+Réponse: _code réponse, description,
+
+compose, 0N Question, 11 Quizz
+Quizz: _code quizz, titre, description, nb de questions
+Catégorie: _code catégorie, nom
+
+User: _code user, prénom, nom, email, mot de passe, surnom
+créer, 11 Quizz, 11 User
+detient, 0N Catégorie, 0N Quizz
